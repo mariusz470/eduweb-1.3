@@ -13,6 +13,10 @@
     		}
     		
     	}
+        $("#menu").on("click", function() {
+   $('.exercise').slideToggle();
+        });
+     
     	console.log("success");
 		var grid = "$(div.grid.grid-12);";
 		var http = "$(.nav a [href^='http']);";
